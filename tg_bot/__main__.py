@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/Kratos_probot?startgroup=true".format(bot.username))],
                      [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Athena_Support"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/Athena_updates")],
-                     [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(Kratos_probot)) ]])
+                     [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(Kratos_probot)) ]]
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
